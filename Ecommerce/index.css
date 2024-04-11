@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    background-color: #003C43;
+    padding: 20px; 
+    color: antiquewhite;
+    display: flex;
+}
+
+
+header {
+background-color: #003C43;
+color: antiquewhite;
+display: flex;
+padding: 20px;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+
+}
+
+nav ul li a {
+    color: #77B0AA;
+    text-decoration: none;
+
+}
+
+h2 {
+    text-align: center;
+    color: #003C43;
+}
+h4{
+    text-align: center;
+    color: #003C43;
+}
+
+.featured-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+main{
+    background-color:#EEEEEE;
+    padding-bottom: 100px;
+}
+
+.products {
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #D9EDBF;
+
+}
+.products img{
+max-width: 100%;
+height: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #77B0AA;
+    background-color: #135D66;
+
+}
+
+button {
+    border: 2.5px solid #0c0c0c;
+    border-color: #135D66;
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    /* margin-left: 2px;
+    margin-right: 2px; */
+    padding: 6px 12px;
+
+}
+button:hover{
+    background-color: #135D66;
+  color: #f5f8f8;
+  border: 2.5px solid #0c0c0c;
+
+}
+
+.prod {
+    text-align: center;
+    font-style: normal;
+    color: #003C43;
+}
+.cart{
+   display: block;
+   margin-bottom: 20px; 
+}
+
+.cart-items {
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    background-color: #D9EDBF;
+}
+
+.cart-items img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.cart-item-details {
+    flex: 1;
+}
+.cart-total {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.checkout form {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.checkout label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.checkout input,
+.checkout textarea {
+width: 100%;
+padding: 5%;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+}
+
+.checkout-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #135D66;
+}
